@@ -9,5 +9,8 @@
         <module name="vertx-demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="vertx-demo" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

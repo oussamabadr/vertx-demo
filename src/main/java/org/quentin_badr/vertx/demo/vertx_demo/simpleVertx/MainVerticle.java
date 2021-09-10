@@ -1,4 +1,4 @@
-package org.quentin_badr.vertx.demo.vertx_demo;
+package org.quentin_badr.vertx.demo.vertx_demo.simpleVertx;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Promise;
@@ -11,7 +11,7 @@ public class MainVerticle extends AbstractVerticle {
   private static final Logger LOGGER = LoggerFactory.getLogger(MainVerticle.class);
 
   public static void main(String[] args) {
-    Vertx.vertx().deployVerticle(MainVerticle.class.getName());
+    Vertx.vertx().deployVerticle(new MainVerticle());
   }
 
   @Override

@@ -28,4 +28,22 @@ To run your application:
 * https://groups.google.com/forum/?fromgroups#!forum/vertx[Vert.x User Group]
 * https://gitter.im/eclipse-vertx/vertx-users[Vert.x Gitter]
 
+== Draft Demo Notes
+
+- Simple Vert.x server
+- EventBus simple scenario
+- EventBus Dependency Injection
+
+- Circuit breaker
+
+- Junit 5 Test
+
+- rxjava 2 (don't use GetBlock)
+- BackPressure
+- CallBacks vs rxjava Observable
+- Flowable vs Observer
+
+- Spring integration
+- Quarkus Integration
+
 
